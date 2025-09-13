@@ -39,15 +39,7 @@ A comprehensive MERN stack backend for CleanMate laundry service application.
    cp .env.example .env
    ```
    
-   Update the `.env` file with your configuration:
-   ```env
-   PORT=8000
-   NODE_ENV=development
-   MONGODB_URI=mongodb://localhost:27017/cleanmate
-   JWT_SECRET=your_super_secret_jwt_key_here
-   JWT_EXPIRE=7d
-   FRONTEND_URL=http://localhost:5173
-   ```
+
 
 4. **Start MongoDB**
    - For local MongoDB: `mongod`
@@ -398,6 +390,3 @@ After running the seed script:
 - **Email**: john.doe@example.com
 - **Password**: password123
 
----
-
-Built with ❤️ for CleanMate Laundry Service
